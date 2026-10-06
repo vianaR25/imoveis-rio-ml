@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+*.egg-info/
+
+# Cache de respostas, logs e dados brutos (centenas de MB): regeneráveis com os scripts
+cache/
+logs/
+data/raw/
+data/processed/*_teste.*
+data/processed/*.csv
+models/
